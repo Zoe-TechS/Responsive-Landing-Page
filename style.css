@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+header {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 30px 80px;
+  width: 100%;
+}
+header button {
+  padding: 16.5px 66px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+}
+header button:hover {
+  background-color: rgb(255, 255, 255, 0.65);
+}
+.section1 {
+  background-image: url(/images334/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+}
+.community {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 30px 80px;
+  padding-bottom: 60px;
+}
+.community .head1 {
+  width: 45%;
+}
+.community .head1 h1 {
+  font-family: "Poppins";
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 55px;
+  color: hsl(192, 100%, 9%);
+}
+.community .head1 p {
+  font-family: "Open Sans";
+  font-weight: 500;
+  padding-right: 50px;
+  margin: 27px 0 30px 0;
+  color: hsl(192, 100%, 9%);
+  font-size: 17px;
+}
+.community button {
+  padding: 20px 65px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 30px;
+  color: hsl(193, 100%, 96%);
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15;
+  cursor: pointer;
+  box-shadow: 3.5px 3.5px 3.5px hsl(208, 11%, 55%, 0.3);
+  /* outline: none; */
+}
+.community button:hover,
+.footer-overlap button:hover {
+  background-color: hsl(322, 100%, 81%);
+}
+.community .com-img {
+  width: 55%;
+}
+.section2 {
+  padding: 80px;
+}
+.grow,
+.flowing,
+.user {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  max-height: 400px;
+  margin: auto;
+  justify-content: space-between;
+  box-shadow: 0px 0px 3.5px 3.5px rgba(203, 211, 219, 0.2);
+  border-radius: 9px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 105px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+  color: hsl(192, 100%, 9%);
+}
+.grow h1,
+.flowing h1,
+.user h1 {
+  font-family: "Poppins";
+  font-weight: 900;
+}
+.grow p,
+.user p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  margin-top: 20px;
+  padding-right: 70px;
+  line-height: 27px;
+}
+.flowing p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 27px;
+}
+.footer-overlap {
+  width: 50%;
+  margin: auto;
+  padding: 50px 60px;
+  text-align: center;
+  box-shadow: 0px 0px 3.5px 3.5px rgba(203, 211, 219, 0.2);
+  border-radius: 10px;
+  background-color: white;
+}
+.overlap {
+  margin-bottom: -85px;
+  position: relative;
+}
+.footer-overlap h1 {
+  font-family: "Poppins";
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.footer-overlap button {
+  padding: 26px 100px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 40px;
+  color: hsl(193, 100%, 96%);
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 3.5px 3.5px 3.5px hsl(208, 11%, 55%, 0.3);
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+}
+.footer-box {
+  width: 89%;
+  margin: auto;
+  padding-top: 135px;
+  padding-bottom: 10px;
+}
+.col-1,
+.col-2,
+.col-3,
+.social {
+  align-items: center;
+  justify-items: center;
+}
+.social {
+  display: inline-block;
+  margin-left: -100px;
+}
+.col-1 {
+  width: 40%;
+}
+.col-2,
+.col-3 {
+  width: 15%;
+  padding-left: 100px;
+}
+.social {
+  width: 30%;
+  padding-left: 130px;
+}
+.footer-logo {
+  margin-bottom: 30px;
+  filter: brightness(0) invert(1);
+}
+.footer-mid {
+  display: flex;
+}
+.location,
+.phone,
+.email {
+  display: flex;
+  margin-bottom: 15px;
+}
+.location img {
+  padding-right: 25px;
+}
+.phone img,
+.email img {
+  padding-right: 20px;
+}
+.footer-mid p {
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: hsl(193, 100%, 96%);
+}
+.col-2 p,
+.col-3 p {
+  margin-bottom: 15px;
+}
+.fa {
+  text-decoration: none;
+  color: hsl(193, 100%, 96%);
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+.fa:hover {
+  color: hsl(322, 100%, 66%);
+}
+.fa.fa-facebook {
+  color: hsl(193, 100%, 96%);
+  border-radius: 50%;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.fa.fa-facebook:hover {
+  color: hsl(322, 100%, 66%);
+}
+.social p {
+  color: hsl(193, 100%, 96%);
+  font-size: 12px;
+  font-family: "Open Sans";
+  margin-top: 13px;
+  position: relative;
+  padding-left: 12px;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    body {
+      max-width: 100%;
+      margin: auto;
+    }
+    .section1 {
+        background-image: url(/images334/bg-hero-mobile.svg);
+        background-color: hsl(193, 100%, 96%);
+    }
+    header {
+        padding-left: 0px;
+    }
+    header button {
+        padding: 0;
+        font-size: 11px;
+    }
+    .community {
+      flex-direction: column;
+      max-width: 100%;
+      margin: auto;
+      margin-top: 25px;
+      justify-content: center;
+      padding: 40px;
+      text-align: center;
+    }
+    .community .head1 {
+      width: 100%;
+      margin: auto;
+    }
+    .community .head1 h1 {
+      font-size: 26px;
+      line-height: 38px;
+    }
+    .community .head1 p {
+      margin-top: 20px;
+      padding: 0px;
+      font-size: 17px;
+      font-weight: 500;
+    }
+    .community button {
+      padding: 15px 65px;
+      margin-top: 25px;
+      margin-bottom: 65px;
+    }
+    .community .com-img {
+      width: 100%;
+    }
+    .section2 {
+      padding: 25px;
+    }
+    .grow,
+    .flowing,
+    .user {
+      flex-direction: column;
+      display: block;
+      padding: 30px 30px;
+      text-align: center;
+    }
+    .grow h1,
+    .flowing h1,
+    .user h1 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .section2 p {
+      margin: auto;
+      padding: 0px;
+      font-size: 16px;
+    }
+    .footer-overlap {
+      width: 87%;
+      padding: 40px 10px;
+      position: relative;
+      margin-bottom: 30px;
+    }
+    .footer-overlap h1 {
+      font-size: 19px;
+    }
+    .footer-overlap button {
+      padding: 13px 45px;
+      font-size: 13px;
+    }
+    .footer-mid {
+      flex-direction: column;
+    }
+    .col-1,
+    .col-2,
+    .col-3 {
+      padding: 0;
+      margin:0;
+      width: 100%;
+    }
+    .social {
+      padding-top: 10px;
+      margin:0px;
+      width: 100%;
+    }
+    .social p{
+      padding: 0;
+    }
+  
+  }
